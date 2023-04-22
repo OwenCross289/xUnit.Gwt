@@ -16,8 +16,8 @@ public sealed class TestTask : FrostingTask<BuildContext>
             Configuration = context.MsBuildConfiguration,
             NoBuild = true,
             NoRestore = true,
-            Loggers = new List<string>() {"trx;logfilename=testResults.trx"},
-            ResultsDirectory = "../../../"
+            Loggers = new List<string>() {"trx"},
+            ResultsDirectory = "../../../TestResults"
         });
     }
 }
