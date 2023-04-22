@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xUnit.Gwt", "src\xUnit.Gwt\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xUnit.Gwt.Tests", "tests\xUnit.Gwt.Tests\xUnit.Gwt.Tests.csproj", "{4EE2921D-D79A-478C-95BF-831E4F1E4DD9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cake", "cake", "{6E37DECA-9E8E-4273-9E9E-871753EC3985}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Build", "cake\BuildScripts\build\Build.csproj", "{0D3C1BD1-CEA0-45F6-9DCE-EDCA04DE9DA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,9 +27,14 @@ Global
 		{4EE2921D-D79A-478C-95BF-831E4F1E4DD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EE2921D-D79A-478C-95BF-831E4F1E4DD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EE2921D-D79A-478C-95BF-831E4F1E4DD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D3C1BD1-CEA0-45F6-9DCE-EDCA04DE9DA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D3C1BD1-CEA0-45F6-9DCE-EDCA04DE9DA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D3C1BD1-CEA0-45F6-9DCE-EDCA04DE9DA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D3C1BD1-CEA0-45F6-9DCE-EDCA04DE9DA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C9773EF3-F6BE-40C1-A0F0-20364CF68A9F} = {1EC590C8-3A29-4899-A6E1-E22A18CB1411}
 		{4EE2921D-D79A-478C-95BF-831E4F1E4DD9} = {F8368C60-6593-41EC-9F8D-3727D647AE39}
+		{0D3C1BD1-CEA0-45F6-9DCE-EDCA04DE9DA4} = {6E37DECA-9E8E-4273-9E9E-871753EC3985}
 	EndGlobalSection
 EndGlobal
