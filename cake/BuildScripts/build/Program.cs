@@ -1,6 +1,7 @@
 using Build;
 using Cake.Frosting;
 
+//Comment for test
 public static class Program
 {
     public static int Main(string[] args)
