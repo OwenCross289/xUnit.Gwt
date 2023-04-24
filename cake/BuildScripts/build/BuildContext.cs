@@ -2,6 +2,8 @@ using Cake.Common;
 using Cake.Core;
 using Cake.Frosting;
 
+namespace Build;
+
 public sealed class BuildContext : FrostingContext
 {
     public string MsBuildConfiguration { get; set; }
