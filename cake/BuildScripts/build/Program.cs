@@ -1,5 +1,6 @@
-using Build;
 using Cake.Frosting;
+
+namespace Build;
 
 public static class Program
 {
